@@ -6,5 +6,21 @@
   @apply text-2xl font-bold text-dark2;
 }
 .btn {
-  @apply bg-BtnBg text-black;
+  @apply bg-BtnBg text-black font-bold text-lg md:text-xl;
+}
+
+.banner {
+  @apply h-5/6 bg-[url('/image/banner.png')] bg-[#100F0FB3] bg-no-repeat bg-center bg-cover flex flex-col justify-center items-center bg-blend-overlay;
+}
+h1 {
+  @apply w-11/12 lg:w-3/6 text-center text-4xl lg:text-6xl text-white font-bold leading-tight mb-6;
+}
+.h-para {
+  @apply w-11/12 lg:w-3/6 text-white text-base text-center leading-normal mb-8;
+}
+.input{
+  @apply w-3/5
+}
+.inputBtn{
+  @apply w-1/5 btn border-none ml-[-10px]
 }
