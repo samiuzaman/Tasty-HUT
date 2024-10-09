@@ -9,6 +9,7 @@ module.exports = {
         dark3: "#706F6F",
         modalBtnBg: "#DC3545",
         BtnBg: "#FFC107",
+        footerBg: "#FFC1070D",
       },
       fontFamily: {
         Poppins: "Poppins",
