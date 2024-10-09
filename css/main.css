@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+.logo {
+  @apply text-2xl font-bold text-dark2;
+}
 .btn {
   @apply bg-BtnBg text-black;
 }
