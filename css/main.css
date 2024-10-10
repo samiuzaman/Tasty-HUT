@@ -6,7 +6,7 @@
   @apply text-2xl font-bold text-dark2;
 }
 .btn {
-  @apply bg-BtnBg text-black font-bold text-lg md:text-xl;
+  @apply bg-BtnBg text-black font-semibold text-lg md:text-xl px-5;
 }
 
 .banner {
@@ -28,10 +28,10 @@ h2 {
   @apply text-4xl text-dark1 text-center font-semibold;
 }
 .card {
-  @apply flex flex-row justify-center items-center gap-10 border shadow-lg rounded-lg;
+  @apply w-[480px] lg:w-[550px] h-[350px] flex flex-row justify-center items-center gap-10 border shadow-lg rounded-xl pl-4 pr-8 text-justify;
 }
 .cardImg {
-  @apply w-56 h-72 rounded-md;
+  @apply w-44 rounded-md;
 }
 h3 {
   @apply text-2xl text-dark2 font-bold mb-4;
@@ -42,12 +42,19 @@ h3 {
 a {
   @apply text-BtnBg text-lg font-semibold underline cursor-pointer;
 }
-h4{
-  @apply text-2xl text-dark2 font-bold mb-8
+h4 {
+  @apply text-2xl text-dark2 font-bold mb-8;
 }
-li{
-  @apply text-xl text-dark2 font-medium mb-5
+span {
+  @apply text-dark2 text-lg font-semibold;
 }
-.footer{
-  @apply bg-base-200 md:flex md:justify-between md:items-start bg-footerBg py-10 px-8 lg:p-14 lg:px-24
+.closeBtn {
+  @apply bg-modalBtnBg text-white hover:text-black;
+}
+
+li {
+  @apply text-xl text-dark2 font-medium mb-5;
+}
+.footer {
+  @apply bg-base-200 md:flex md:justify-between md:items-start bg-footerBg py-10 px-8 lg:p-14 lg:px-24;
 }

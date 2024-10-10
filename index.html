@@ -46,7 +46,18 @@
       </section>
     </header>
 
-    
+    <main class="w-11/12 lg:w-4/5 mx-auto mt-16">
+      <h2>Your Favourite Food</h2>
+      <div
+        id="cards-container"
+        class="mt-12 mb-20 grid grid-cols-1 lg:grid-cols-2 lg:gap-10"
+      ></div>
+      <div class="text-center mb-20">
+        <button id="showAllButton" class="btn">Show All</button>
+      </div>
+      <!-- Modal Section  -->
+      <div id="modal-container"></div>
+    </main>
 
     <footer class="footer">
       <div class="text-white">
@@ -80,7 +91,7 @@
         </ul>
       </div>
 
-      <div class="w-2/5">
+      <div class="lg:w-2/5">
         <h4>Subscribe to our newsletter</h4>
         <p class="cardPara">
           There are many variations of passages of available, but the majority
@@ -96,5 +107,7 @@
         </div>
       </div>
     </footer>
+    <!-- Link External JavaScript File -->
+    <script src="js/script.js"></script>
   </body>
 </html>
